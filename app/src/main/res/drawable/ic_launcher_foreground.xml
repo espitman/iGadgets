@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background gradient -->
+    <path
+        android:fillColor="#1a1a2e"
+        android:pathData="M0,0h108v108h-108z"/>
+    
+    <!-- Outer glow -->
+    <path
+        android:fillColor="#44ABFF"
+        android:fillAlpha="0.15"
+        android:pathData="M54,54m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0"/>
+    
+    <!-- Widget Card 1 (Top) - Clock Widget -->
+    <path
+        android:fillColor="#0f1419"
+        android:pathData="M30,28 L78,28 A4,4 0,0,1 82,32 L82,42 A4,4 0,0,1 78,46 L30,46 A4,4 0,0,1 26,42 L26,32 A4,4 0,0,1 30,28 Z"/>
+    <path
+        android:strokeColor="#44ABFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M30,28 L78,28 A4,4 0,0,1 82,32 L82,42 A4,4 0,0,1 78,46 L30,46 A4,4 0,0,1 26,42 L26,32 A4,4 0,0,1 30,28 Z"/>
+    <!-- Clock icon inside -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,37m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0"/>
+    <path
+        android:fillColor="#0f1419"
+        android:pathData="M36,37m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0"/>
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M36,34 L36,37 L38,37"/>
+    
+    <!-- Widget Card 2 (Middle) - Calendar Widget -->
+    <path
+        android:fillColor="#0f1419"
+        android:pathData="M30,51 L78,51 A4,4 0,0,1 82,55 L82,65 A4,4 0,0,1 78,69 L30,69 A4,4 0,0,1 26,65 L26,55 A4,4 0,0,1 30,51 Z"/>
+    <path
+        android:strokeColor="#44ABFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M30,51 L78,51 A4,4 0,0,1 82,55 L82,65 A4,4 0,0,1 78,69 L30,69 A4,4 0,0,1 26,65 L26,55 A4,4 0,0,1 30,51 Z"/>
+    <!-- Calendar grid -->
+    <path
+        android:fillColor="#88FFFFFF"
+        android:pathData="M32,57 L36,57 L36,61 L32,61 Z"/>
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M38,57 L42,57 L42,61 L38,61 Z"/>
+    <path
+        android:fillColor="#88FFFFFF"
+        android:pathData="M44,57 L48,57 L48,61 L44,61 Z"/>
+    
+    <!-- Widget Card 3 (Bottom) - Weather/Info Widget -->
+    <path
+        android:fillColor="#0f1419"
+        android:pathData="M30,74 L78,74 A4,4 0,0,1 82,78 L82,88 A4,4 0,0,1 78,92 L30,92 A4,4 0,0,1 26,88 L26,78 A4,4 0,0,1 30,74 Z"/>
+    <path
+        android:strokeColor="#44ABFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M30,74 L78,74 A4,4 0,0,1 82,78 L82,88 A4,4 0,0,1 78,92 L30,92 A4,4 0,0,1 26,88 L26,78 A4,4 0,0,1 30,74 Z"/>
+    <!-- Info bars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,80 L50,80 L50,82 L32,82 Z"/>
+    <path
+        android:fillColor="#88FFFFFF"
+        android:pathData="M32,84 L46,84 L46,86 L32,86 Z"/>
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M32,88 L42,88 L42,90 L32,90 Z"/>
+    
+    <!-- Plus icon (top right) indicating "more widgets" -->
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M88,35 L92,35 L92,39 L88,39 Z"/>
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M86,37 L94,37 L94,37 L86,37 Z"/>
+    <path
+        android:fillColor="#44ABFF"
+        android:pathData="M90,33 L90,41 L90,41 L90,33 Z"/>
+</vector>

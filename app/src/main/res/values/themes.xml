@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IGadgets" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize your secondary theme here. -->
+    </style>
+    
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Minimal definition to satisfy manifest -->
+    </style>
+
+    <style name="WidgetTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/vazirmatn</item>
+    </style>
+</resources>

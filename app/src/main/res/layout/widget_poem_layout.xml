@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poem_widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_gradient_bg"
+    android:padding="16dp">
+
+    <!-- Header layer -->
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/refresh_button"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/stat_notify_sync"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:contentDescription="Refresh"/>
+
+        <ImageButton
+            android:id="@+id/view_poem_button"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_search"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:contentDescription="View Full"/>
+    </RelativeLayout>
+
+    <!-- Footer layer (Poet Name) -->
+    <LinearLayout
+        android:id="@+id/footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="4dp">
+
+        <FrameLayout
+            android:layout_width="24dp"
+            android:layout_height="1.5dp"
+            android:background="#6644ABFF"/>
+
+        <ImageView
+            android:id="@+id/poet_name_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:adjustViewBounds="true"/>
+
+        <FrameLayout
+            android:layout_width="24dp"
+            android:layout_height="1.5dp"
+            android:background="#6644ABFF"/>
+    </LinearLayout>
+
+    <!-- Center Content (Poem text images) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_layout"
+        android:layout_above="@id/footer_layout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:id="@+id/verse1_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/verse2_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_clock_native"
+    android:minWidth="300dp"
+    android:minHeight="72dp"
+    android:minResizeWidth="180dp"
+    android:minResizeHeight="60dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="1"
+    android:widgetFeatures="reconfigurable"
+    android:configure="com.igadgets.app.WidgetConfigActivity"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:padding="0dp"
+    android:updatePeriodMillis="0" />
