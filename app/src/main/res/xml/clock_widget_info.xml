@@ -12,4 +12,4 @@
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen"
     android:padding="0dp"
-    android:updatePeriodMillis="0" />
+    android:updatePeriodMillis="1800000" />

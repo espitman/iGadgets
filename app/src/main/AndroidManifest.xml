@@ -69,6 +69,15 @@
                 android:resource="@xml/poem_widget_info" />
         </receiver>
 
+        <receiver
+            android:name=".TimeTickReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_TICK" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
